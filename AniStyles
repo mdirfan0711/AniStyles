@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniStyles | Anime-Themed T-Shirts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header anime-theme">
+        <div class="logo">AniStyles</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Find Your Anime Style</h1>
+            <p>Explore exclusive T-shirts inspired by your favorite anime worlds: Naruto, AoT, Jujutsu Kaisen, Blue Lock, and more.</p>
+            <a href="#shop" class="shop-now">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="hero-placeholder.jpg" alt="Anime-themed hero image">
+        </div>
+    </section>
+
+    <section id="shop" class="shop-section">
+        <h2>Shop Our Collections</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="naruto-shirt.jpg" alt="Naruto-themed T-shirt">
+                <h3>Naruto Collection</h3>
+                <p>From Hidden Leaf Village symbols to Akatsuki vibes.</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="aot-shirt.jpg" alt="AoT-themed T-shirt">
+                <h3>Attack on Titan Collection</h3>
+                <p>Unleash the power of the Titans.</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="jujutsu-kaisen-shirt.jpg" alt="Jujutsu Kaisen-themed T-shirt">
+                <h3>Jujutsu Kaisen Collection</h3>
+                <p>Cursed energy, Gojo's limitless style, and more.</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="blue-lock-shirt.jpg" alt="Blue Lock-themed T-shirt">
+                <h3>Blue Lock Collection</h3>
+                <p>Step up your game with soccer-inspired designs.</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About AniStyles</h2>
+        <p>AniStyles is your go-to shop for anime-inspired fashion. We design T-shirts that celebrate the iconic worlds and characters you love, blending creativity with premium quality.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 AniStyles. All rights reserved.</p>
+    </footer>
+</body>
+</html>
